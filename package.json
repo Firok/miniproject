@@ -1,0 +1,46 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "API to return, the country and timezone info, distance (in km or miles) and the time difference in hours, between two geo locations.",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "mocha -r babel-register --recursive ./src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Firok/miniproject.git"
+  },
+  "author": "Firok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Firok/miniproject/issues"
+  },
+  "homepage": "https://github.com/Firok/miniproject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-watch": "^2.0.7",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.0",
+    "eslint": "^4.10.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  }
+}
