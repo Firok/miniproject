@@ -39,4 +39,35 @@ Post Payload
    		"units": "metric"
    	}
 ...
+
+
+...
+Response Payload
+    {
+    "start": {
+        "country": "Morocco",
+        "timezone": "GMT+1",
+        "location": {
+            "lat": 33.58831,
+            "lng": -7.61138
+        }
+    },
+    "end": {
+        "country": "Japan",
+        "timezone": "GMT+9",
+        "location": {
+            "lat": 35.6895,
+            "lng": 139.69171
+        }
+    },
+    "distance": {
+        "value": "15125.9",
+        "units": "km"
+    },
+    "time_diff": {
+        "value": 8,
+        "units": "hours"
+    }
+}
+...
 ```
