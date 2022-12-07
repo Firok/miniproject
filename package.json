@@ -29,9 +29,9 @@
     "@google/maps": "^1.0.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "countries-and-timezones": "^2.0.5",
-    "express": "^4.16.4"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
